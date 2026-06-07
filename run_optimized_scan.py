@@ -14,11 +14,13 @@ Usage:
     python run_optimized_scan.py
     python run_optimized_scan.py --workers 10  # Faster but riskier
     python run_optimized_scan.py --conservative  # Slower but safer (3 workers)
+    python run_optimized_scan.py --use-config  # Use tickers from config.yaml
 """
 
 import argparse
 import logging
 import sys
+import yaml
 from datetime import datetime
 from pathlib import Path
 
@@ -72,7 +74,6 @@ def save_report(results, buy_signals, sell_signals, spy_analysis, breadth, outpu
         error_emoji = "🔴"
     output.append(f"{error_emoji} Error Rate: {error_rate:.2f}%")
 
-    # Buy/Sell signal counts with emoji
     if len(buy_signals) > 0:
         output.append(f"🟢 Buy Signals: {len(buy_signals)}")
     else:
@@ -82,6 +83,7 @@ def save_report(results, buy_signals, sell_signals, spy_analysis, breadth, outpu
         output.append(f"🔴 Sell Signals: {len(sell_signals)}")
     else:
         output.append(f"Sell Signals: {len(sell_signals)}")
+
     output.append("")
 
     # Benchmark
@@ -97,22 +99,21 @@ def save_report(results, buy_signals, sell_signals, spy_analysis, breadth, outpu
     if buy_signals:
         for i, signal in enumerate(buy_signals[:50], 1):
             score = signal['score']
-            # Score-based emoji (green/yellow with star for exceptional)
+
             if score >= 90:
-                score_emoji = "⭐"  # Exceptional - star
+                score_emoji = "⭐"
             elif score >= 80:
-                score_emoji = "🟢"  # Very good - green
+                score_emoji = "🟢"
             elif score >= 70:
-                score_emoji = "🟢"  # Good - green
+                score_emoji = "🟢"
             else:
-                score_emoji = "🟡"  # Borderline - yellow
+                score_emoji = "🟡"
 
             output.append(f"\n{'#'*80}")
             output.append(f"{score_emoji} BUY #{i}: {signal['ticker']} | Score: {signal['score']}/125")
             output.append(f"{'#'*80}")
             output.append(f"Phase: {signal['phase']}")
 
-            # Entry quality with emoji
             entry_quality = signal.get('entry_quality', 'Unknown')
             if entry_quality == 'Good':
                 output.append(f"🟢 Entry Quality: {entry_quality}")
@@ -121,20 +122,19 @@ def save_report(results, buy_signals, sell_signals, spy_analysis, breadth, outpu
             else:
                 output.append(f"🔴 Entry Quality: {entry_quality}")
 
-            # CRITICAL: Stop loss and R/R ratio
             if signal.get('stop_loss'):
                 output.append(f"Stop Loss: ${signal['stop_loss']:.2f}")
                 details = signal.get('details', {})
                 risk_amt = details.get('risk_amount', 0)
                 reward_amt = details.get('reward_amount', 0)
                 rr_ratio = signal.get('risk_reward_ratio', 0)
-                # R/R ratio emoji
+
                 if rr_ratio >= 3:
-                    rr_emoji = "🟢"  # Excellent R/R
+                    rr_emoji = "🟢"
                 elif rr_ratio >= 2:
-                    rr_emoji = "🟢"  # Good R/R
+                    rr_emoji = "🟢"
                 else:
-                    rr_emoji = "🟡"  # Poor R/R
+                    rr_emoji = "🟡"
                 output.append(f"{rr_emoji} Risk/Reward: {rr_ratio:.1f}:1 (Risk ${risk_amt:.2f}, Reward ${reward_amt:.2f})")
 
             if signal.get('breakout_price'):
@@ -143,46 +143,42 @@ def save_report(results, buy_signals, sell_signals, spy_analysis, breadth, outpu
             details = signal.get('details', {})
             if 'rs_slope' in details:
                 rs_slope = details['rs_slope']
-                # RS emoji (green = good, yellow = ok, red = bad)
                 if rs_slope > 0.5:
-                    rs_emoji = "🟢"  # Strong RS
+                    rs_emoji = "🟢"
                 elif rs_slope > 0:
-                    rs_emoji = "🟡"  # Positive RS
+                    rs_emoji = "🟡"
                 else:
-                    rs_emoji = "🔴"  # Weak RS
+                    rs_emoji = "🔴"
                 output.append(f"{rs_emoji} RS: {rs_slope:.3f}")
+
             if 'volume_ratio' in details:
                 vol_ratio = details['volume_ratio']
-                # Volume emoji
                 if vol_ratio > 1.5:
-                    vol_emoji = "🟢"  # High volume
+                    vol_emoji = "🟢"
                 elif vol_ratio > 1.0:
-                    vol_emoji = "🟡"  # Above average
+                    vol_emoji = "🟡"
                 else:
-                    vol_emoji = "🔴"  # Low volume
+                    vol_emoji = "🔴"
                 output.append(f"{vol_emoji} Volume: {vol_ratio:.1f}x")
 
-            # VCP pattern details if detected
             vcp_data = details.get('vcp_data')
             if vcp_data:
                 vcp_quality = vcp_data.get('quality', 0)
                 contractions = vcp_data.get('contractions', 0)
                 pattern = vcp_data.get('pattern', 'N/A')
-
                 if vcp_quality >= 80:
-                    vcp_emoji = "⭐"  # Exceptional VCP
+                    vcp_emoji = "⭐"
                 elif vcp_quality >= 60:
-                    vcp_emoji = "🟢"  # Good VCP
+                    vcp_emoji = "🟢"
                 elif vcp_quality >= 50:
-                    vcp_emoji = "🟡"  # Marginal VCP
+                    vcp_emoji = "🟡"
                 else:
-                    vcp_emoji = "🟡"  # Partial pattern
-
+                    vcp_emoji = "🟡"
                 if vcp_quality >= 50:
                     output.append(f"{vcp_emoji} VCP: {pattern} (quality: {vcp_quality:.0f}/100)")
 
             output.append("\nKey Reasons:")
-            for reason in signal['reasons'][:7]:  # Show 7 instead of 5
+            for reason in signal['reasons'][:7]:
                 output.append(f"  • {reason}")
 
             if signal.get('fundamental_snapshot'):
@@ -209,39 +205,39 @@ def save_report(results, buy_signals, sell_signals, spy_analysis, breadth, outpu
             score = signal['score']
             severity = signal['severity']
 
-            # Severity emoji (red/yellow with alarm for critical)
             if severity == 'critical':
-                severity_emoji = "🚨"  # Critical - alarm
+                severity_emoji = "🚨"
             elif severity == 'high':
-                severity_emoji = "🔴"  # High - red
+                severity_emoji = "🔴"
             else:
-                severity_emoji = "🟡"  # Moderate - yellow
+                severity_emoji = "🟡"
 
-            # Score emoji (higher score = more urgent to sell)
             if score >= 80:
-                score_emoji = "🚨"  # Very urgent - alarm
+                score_emoji = "🚨"
             elif score >= 70:
-                score_emoji = "🔴"  # Urgent - red
+                score_emoji = "🔴"
             else:
-                score_emoji = "🟡"  # Warning - yellow
+                score_emoji = "🟡"
 
             output.append(f"\n{'#'*80}")
             output.append(f"{score_emoji} SELL #{i}: {signal['ticker']} | Score: {signal['score']}/110")
             output.append(f"{'#'*80}")
             output.append(f"Phase: {signal['phase']} | {severity_emoji} Severity: {severity.upper()}")
+
             if signal.get('breakdown_level'):
                 output.append(f"Breakdown: ${signal['breakdown_level']:.2f}")
+
             details = signal.get('details', {})
             if 'rs_slope' in details:
                 rs_slope = details['rs_slope']
-                # RS emoji for sell signals (negative is expected)
                 if rs_slope < -0.5:
-                    rs_emoji = "🔴"  # Very weak RS
+                    rs_emoji = "🔴"
                 elif rs_slope < 0:
-                    rs_emoji = "🟡"  # Weak RS
+                    rs_emoji = "🟡"
                 else:
-                    rs_emoji = "🟢"  # Still positive RS (unusual for sell)
+                    rs_emoji = "🟢"
                 output.append(f"{rs_emoji} RS: {rs_slope:.3f}")
+
             output.append("\nSell Reasons:")
             for reason in signal['reasons'][:5]:
                 output.append(f"  • {reason}")
@@ -265,7 +261,6 @@ def save_report(results, buy_signals, sell_signals, spy_analysis, breadth, outpu
 
     report_text = "\n".join(output)
 
-    # Save
     filepath = Path(output_dir) / f"optimized_scan_{timestamp}.txt"
     with open(filepath, 'w') as f:
         f.write(report_text)
@@ -276,7 +271,6 @@ def save_report(results, buy_signals, sell_signals, spy_analysis, breadth, outpu
 
     logger.info(f"Report saved: {filepath}")
     print(report_text)
-
     return filepath
 
 
@@ -293,6 +287,8 @@ def main():
     parser.add_argument('--min-volume', type=int, default=100000, help='Min volume')
     parser.add_argument('--use-fmp', action='store_true', help='Use FMP for enhanced fundamentals on buy signals')
     parser.add_argument('--git-storage', action='store_true', help='Use Git-based storage for fundamentals (recommended)')
+    # ---- BARU: flag untuk baca dari config.yaml ----
+    parser.add_argument('--use-config', action='store_true', help='Use tickers from config.yaml instead of full universe')
 
     args = parser.parse_args()
 
@@ -307,9 +303,8 @@ def main():
         logger.warning("Aggressive mode: 5 workers, 0.3s delay (~17 TPS) - MAY HIT RATE LIMITS!")
 
     effective_tps = args.workers / args.delay
-    logger.info(f"Configuration: {args.workers} workers × {1/args.delay:.1f} TPS = ~{effective_tps:.1f} TPS effective")
+    logger.info(f"Configuration: {args.workers} workers x {1/args.delay:.1f} TPS = ~{effective_tps:.1f} TPS effective")
 
-    # Initialize enhanced fundamentals fetcher
     fundamentals_fetcher = EnhancedFundamentalsFetcher()
     if args.use_fmp and fundamentals_fetcher.fmp_available:
         logger.info("FMP enabled - will use for buy signal fundamentals")
@@ -317,20 +312,28 @@ def main():
         logger.warning("--use-fmp specified but FMP_API_KEY not set. Using yfinance only.")
 
     try:
-        # Fetch universe
-        universe_fetcher = USStockUniverseFetcher()
-        logger.info("Fetching stock universe...")
-        tickers = universe_fetcher.fetch_universe()
+        # ---- LOGIKA BARU: pilih sumber ticker ----
+        if args.use_config:
+            logger.info("Loading tickers from config.yaml...")
+            with open("config.yaml", "r") as f:
+                config = yaml.safe_load(f)
+            tickers = config.get("stock_universe", [])
+            if not tickers:
+                logger.error("No tickers found in config.yaml under 'stock_universe'")
+                sys.exit(1)
+            logger.info(f"Config mode: {len(tickers)} stocks loaded from config.yaml")
+        else:
+            universe_fetcher = USStockUniverseFetcher()
+            logger.info("Fetching stock universe...")
+            tickers = universe_fetcher.fetch_universe()
+            if not tickers:
+                logger.error("Failed to fetch universe")
+                sys.exit(1)
+            logger.info(f"Universe: {len(tickers):,} stocks")
 
-        if not tickers:
-            logger.error("Failed to fetch universe")
-            sys.exit(1)
-
-        logger.info(f"Universe: {len(tickers):,} stocks")
-
-        if args.test_mode:
-            tickers = tickers[:100]
-            logger.info(f"TEST MODE: {len(tickers)} stocks")
+            if args.test_mode:
+                tickers = tickers[:100]
+                logger.info(f"TEST MODE: {len(tickers)} stocks")
 
         # Initialize processor
         processor = OptimizedBatchProcessor(
@@ -374,11 +377,10 @@ def main():
                         current_price=analysis['current_price'],
                         phase_info=analysis['phase_info'],
                         rs_series=analysis['rs_series'],
-                        fundamentals=analysis.get('quarterly_data'),  # Pass raw quarterly data, not analyzed
-                        vcp_data=analysis.get('vcp_data')  # Added VCP data
+                        fundamentals=analysis.get('quarterly_data'),
+                        vcp_data=analysis.get('vcp_data')
                     )
                     if signal['is_buy']:
-                        # Use FMP for enhanced snapshot if requested and available
                         signal['fundamental_snapshot'] = fundamentals_fetcher.create_snapshot(
                             analysis['ticker'],
                             quarterly_data=analysis.get('quarterly_data', {}),
@@ -399,10 +401,9 @@ def main():
                         current_price=analysis['current_price'],
                         phase_info=analysis['phase_info'],
                         rs_series=analysis['rs_series'],
-                        fundamentals=analysis.get('quarterly_data')  # Pass raw quarterly data, not analyzed
+                        fundamentals=analysis.get('quarterly_data')
                     )
                     if signal['is_sell']:
-                        # Add fundamental snapshot
                         signal['fundamental_snapshot'] = fundamentals_fetcher.create_snapshot(
                             analysis['ticker'],
                             quarterly_data=analysis.get('quarterly_data', {}),
@@ -415,7 +416,6 @@ def main():
         # Report
         save_report(results, buy_signals, sell_signals, spy_analysis, breadth)
 
-        # Show FMP usage if enabled
         if args.use_fmp:
             usage = fundamentals_fetcher.get_api_usage()
             logger.info("="*60)
@@ -424,7 +424,7 @@ def main():
             logger.info(f"Calls remaining: {usage['fmp_calls_remaining']}")
             if 'bandwidth_used_mb' in usage:
                 logger.info(f"Bandwidth used: {usage['bandwidth_used_mb']:.1f} MB / {usage['bandwidth_limit_gb']:.1f} GB ({usage['bandwidth_pct_used']:.1f}%)")
-                logger.info(f"Earnings season: {'Yes' if usage['is_earnings_season'] else 'No'} (cache: {usage['cache_hours']}h)")
+            logger.info(f"Earnings season: {'Yes' if usage['is_earnings_season'] else 'No'} (cache: {usage['cache_hours']}h)")
             logger.info("="*60)
 
         logger.info("="*60)
