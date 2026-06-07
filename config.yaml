@@ -1,29 +1,186 @@
 # Quant Analysis Engine Configuration
 
-# Stock Universe - Add/remove tickers as needed
+# Stock Universe - 601 tickers pilihan
 stock_universe:
+  - A
+  - AA
+  - AAL
+  - AAP
+  - AAPL
+  - ABBV
+  - ABT
+  - ACN
+  - ADBE
+  - ADI
+  - ADM
+  - AEM
+  - AEP
+  - AES
+  - AFL
+  - AFRM
   - AGG
+  - AGIO
+  - AGNC
+  - AI
+  - AIG
+  - AIZ
+  - AJG
+  - AKAM
+  - ALGN
+  - ALL
+  - ALLY
+  - ALNY
+  - AMAT
+  - AMCR
+  - AMD
+  - AME
+  - AMGN
+  - AMP
+  - AMRN
+  - AMT
+  - AMTD
+  - AMX
+  - AMZN
+  - AN
+  - ANSS
+  - AON
+  - APD
+  - APO
   - ARKF
   - ARKG
   - ARKK
   - ARKW
+  - ASML
+  - AVB
+  - AVGO
+  - AWK
+  - AWR
+  - AXP
+  - AZO
+  - AZRE
+  - BA
+  - BABA
+  - BAC
+  - BBY
+  - BDX
+  - BEAM
+  - BEN
   - BF.B
+  - BG
+  - BHP
+  - BIDU
+  - BIIB
+  - BIO
+  - BK
+  - BKH
+  - BKR
+  - BLK
+  - BLUE
+  - BMRN
+  - BMY
   - BND
+  - BNTX
   - BOTZ
   - BRK.B
+  - BSX
+  - BUD
+  - BX
+  - C
+  - CAG
   - CARLYLE
+  - CAT
+  - CB
   - CBOE
+  - CCI
+  - CDNS
+  - CDW
+  - CE
+  - CELH
+  - CENX
+  - CF
+  - CHD
+  - CHGG
+  - CHRW
+  - CHTR
+  - CI
   - CIBR
+  - CIEN
+  - CL
   - CLEAN
+  - CLX
+  - CMA
+  - CMCSA
+  - CME
+  - CMG
+  - CMS
+  - CNA
+  - CNC
+  - CNP
+  - COF
   - COGN
+  - COIN
+  - COP
   - COPT
+  - COST
+  - CPB
+  - CPNG
+  - CPT
+  - CRH
+  - CRL
+  - CRM
+  - CROX
+  - CRSP
+  - CRWD
   - CTT
+  - CTVA
+  - CUBE
+  - CVNA
+  - CVS
+  - CVX
+  - CX
+  - CZR
+  - D
   - DBA
+  - DD
+  - DDOG
+  - DE
+  - DECK
+  - DFS
+  - DGX
+  - DHR
   - DIA
+  - DIS
+  - DKNG
+  - DOCU
+  - DPZ
   - DRE
+  - DRI
+  - DUK
   - DVY
+  - DXCM
+  - EBAY
+  - ECL
+  - ED
+  - EDIT
   - EEM
+  - EL
+  - ELAN
+  - ELV
+  - EMN
+  - EMR
+  - EOG
+  - EPAM
+  - EQH
+  - EQR
+  - ES
+  - ESS
+  - ESTC
+  - ETN
+  - ETR
+  - ETSY
+  - EVR
   - EVX
+  - EW
   - EWA
   - EWG
   - EWJ
@@ -31,73 +188,397 @@ stock_universe:
   - EWW
   - EWY
   - EWZ
+  - EXAS
+  - EXC
+  - EXP
+  - EXPD
+  - EXR
+  - F
+  - FAF
+  - FCNCA
+  - FCX
   - FDN
+  - FDX
+  - FE
+  - FFIV
+  - FICO
+  - FIS
+  - FISV
+  - FITB
+  - FMC
+  - FNF
+  - FNV
+  - FR
+  - FSR
+  - FTNT
   - FTR
+  - FUTU
   - FXI
+  - GD
+  - GE
+  - GEN
+  - GH
+  - GILD
+  - GIS
   - GLD
+  - GLPI
+  - GM
+  - GOLD
+  - GOOG
+  - GOOGL
+  - GPC
+  - GPN
   - GRA
+  - GS
   - HACK
+  - HAL
+  - HALO
+  - HBAN
+  - HCA
+  - HD
+  - HMC
+  - HOLO
+  - HON
+  - HOOD
   - HOUL
+  - HPE
+  - HPQ
+  - HRL
+  - HSY
+  - HUM
+  - HUN
   - HYG
   - IAU
   - IBB
+  - IBKR
+  - IBM
+  - ICE
   - ICLN
   - ICON
+  - IDXX
   - IEF
   - IEFA
   - IGV
+  - ILMN
+  - INCY
   - INDA
+  - INFY
+  - INTC
+  - INTU
   - IONIS
+  - IQV
+  - ISRG
+  - IVZ
   - IWM
   - IYR
   - IYW
+  - JBHT
+  - JD
+  - JKHY
   - JMAT
+  - JMIA
+  - JNCE
+  - JNJ
   - JNK
+  - JNPR
+  - JPM
+  - K
+  - KEY
   - KIE
+  - KKR
+  - KLAC
   - KLG
+  - KMB
+  - KMX
+  - KNSA
+  - KO
   - KRE
+  - KWR
+  - L
+  - LAD
+  - LCID
+  - LH
+  - LHX
+  - LI
+  - LIN
   - LIT
+  - LLY
+  - LMT
+  - LOGI
+  - LOW
+  - LPLA
   - LQD
+  - LRCX
+  - LULU
+  - LUMN
+  - MA
+  - MAA
+  - MC
+  - MCD
   - MCHI
+  - MCHP
+  - MCO
+  - MDB
+  - MDLZ
+  - MDT
+  - MEDP
+  - MELI
+  - MET
+  - META
+  - MGM
+  - MIRM
   - MJ
+  - MKC
+  - MKL
+  - MLM
+  - MMC
+  - MMM
+  - MMSI
+  - MOR
+  - MOS
+  - MPC
+  - MRK
+  - MRNA
+  - MRVL
+  - MS
+  - MSCI
+  - MSFT
   - MSOS
+  - MTB
+  - MTCH
+  - MTD
+  - MU
+  - MYOV
+  - NDAQ
+  - NEE
+  - NEM
+  - NET
+  - NFLX
+  - NIO
+  - NKE
   - NOBL
+  - NOC
+  - NOW
+  - NRG
   - NSRGY
+  - NTAP
+  - NTLA
+  - NTR
+  - NTRA
+  - NTRS
+  - NU
+  - NUE
+  - NVAX
+  - NVCR
+  - NVDA
+  - NXPI
+  - NYCB
+  - O
+  - ODFL
+  - OGE
+  - OHI
+  - OKTA
+  - OLN
+  - OMER
+  - ORAN
+  - ORCL
   - ORGAN
+  - ORLY
+  - OXY
+  - PACB
+  - PAG
+  - PAGS
+  - PAHC
+  - PANW
+  - PARA
+  - PATH
+  - PAYX
   - PCL
+  - PDD
+  - PEG
   - PEJ
+  - PENN
+  - PEP
+  - PFE
+  - PFG
+  - PG
+  - PGR
+  - PINS
   - PIP
+  - PJT
+  - PLD
+  - PLTR
+  - PNC
+  - PNW
+  - PODD
   - POSH
+  - PPG
+  - PPL
+  - PRGO
+  - PRU
+  - PSA
+  - PSX
+  - PTC
+  - PTCT
+  - PVH
+  - PXD
+  - PYPL
+  - QCOM
   - QQQ
+  - QSR
+  - RACE
+  - RE
+  - REAL
+  - REGN
   - REM
+  - RF
+  - RIO
+  - RIVN
+  - RJF
+  - RL
+  - ROK
+  - ROKU
+  - ROST
+  - RSG
+  - RTX
+  - RVMD
+  - SAP
+  - SBAC
+  - SBUX
+  - SCCO
   - SCHD
   - SCHH
+  - SCHW
   - SDY
+  - SE
+  - SFIX
+  - SGEN
+  - SGMO
+  - SHOP
+  - SHW
   - SHY
+  - SIVB
+  - SJM
+  - SKX
   - SKYY
+  - SLB
   - SLV
   - SMH
+  - SNAP
+  - SNOW
+  - SNPS
+  - SO
+  - SOFI
   - SOXX
+  - SPG
+  - SPGI
+  - SPLK
   - SPY
+  - SQ
+  - SRCL
+  - SRE
+  - SRPT
+  - STAG
+  - STE
+  - STLA
   - STONE
+  - STT
+  - STWD
+  - STX
+  - STZ
+  - SUM
+  - SYF
+  - SYK
+  - T
   - TAN
+  - TAP
+  - TEAM
   - TEM
+  - TEVA
+  - TFC
+  - TGT
+  - THC
+  - TIGR
+  - TJX
   - TLT
+  - TM
+  - TMO
+  - TMUS
+  - TNDM
+  - TR
+  - TROW
+  - TRV
+  - TSCO
+  - TSLA
+  - TSN
+  - TWLO
+  - TXG
+  - TXN
+  - TXRH
+  - TYL
+  - U
+  - UA
+  - UAA
+  - UDR
+  - UHS
+  - UL
+  - ULTA
   - UNG
+  - UNH
+  - UPS
+  - UPST
+  - USB
   - USO
+  - UTHR
+  - V
+  - VALE
+  - VFC
+  - VICI
   - VIG
+  - VIRT
+  - VLO
+  - VMC
   - VNQ
+  - VOD
   - VOO
+  - VOYA
+  - VRM
+  - VRTX
+  - VST
   - VT
   - VTI
+  - VTR
+  - VTRS
   - VTV
   - VUG
   - VWO
   - VYM
   - VZ
+  - W
+  - WAT
   - WAYG
+  - WBA
+  - WBD
+  - WCN
+  - WDAY
+  - WDC
+  - WEC
+  - WELL
+  - WEN
+  - WFC
   - WIN
+  - WIT
+  - WLK
+  - WM
+  - WMT
+  - WPM
+  - WRB
+  - WTRG
+  - WTW
+  - WY
+  - X
   - XBI
+  - XEL
   - XLB
   - XLE
   - XLF
@@ -108,9 +589,20 @@ stock_universe:
   - XLU
   - XLV
   - XLY
+  - XOM
+  - XP
+  - XPEV
+  - XRAY
   - XRT
   - Y
+  - YETI
+  - YUM
+  - ZBH
+  - ZBRA
+  - ZION
   - ZOOM
+  - ZS
+  - ZTS
 
 # Screening Parameters
 parameters:
@@ -123,7 +615,7 @@ parameters:
   min_data_days: 200
   # Volume threshold for breakouts
   volume_threshold: 1.5
-  # Maximum extension from 50 MA for buy signals
+  # Maximum extension from 50 SMA for buy signals
   max_extension_pct: 25.0
   # Cache settings
   cache_expiry_hours: 24
