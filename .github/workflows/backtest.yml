@@ -1,0 +1,44 @@
+name: Backtest 3 Tahun
+
+on:
+  workflow_dispatch:
+    inputs:
+      years:
+        description: 'Jumlah tahun historis'
+        required: false
+        default: '3'
+      capital:
+        description: 'Modal awal (USD)'
+        required: false
+        default: '10000'
+
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run backtest
+        run: |
+          python run_backtest.py \
+            --years ${{ github.event.inputs.years || '3' }} \
+            --capital ${{ github.event.inputs.capital || '10000' }} \
+            --use-config
+
+      - name: Upload hasil backtest
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: backtest-results
+          path: data/backtests/
+          retention-days: 90
