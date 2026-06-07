@@ -2,65 +2,129 @@
 
 # Stock Universe - Add/remove tickers as needed
 stock_universe:
-  # Tech
-  - AAPL
-  - MSFT
-  - GOOGL
-  - META
-  - NVDA
-  - AMD
-  - TSLA
-  - NFLX
-
-  # Finance
-  - JPM
-  - BAC
-  - GS
-  - MS
-
-  # Healthcare
-  - JNJ
-  - UNH
-  - PFE
-  - ABBV
-
-  # Consumer
-  - AMZN
-  - WMT
-  - HD
-  - NKE
-  - SBUX
-
-  # Industrial
-  - BA
-  - CAT
-  - GE
-  - UPS
-
-  # Energy
-  - XOM
-  - CVX
-
-  # Add more tickers here...
+  - AGG
+  - ARKF
+  - ARKG
+  - ARKK
+  - ARKW
+  - BF.B
+  - BND
+  - BOTZ
+  - BRK.B
+  - CARLYLE
+  - CBOE
+  - CIBR
+  - CLEAN
+  - COGN
+  - COPT
+  - CTT
+  - DBA
+  - DIA
+  - DRE
+  - DVY
+  - EEM
+  - EVX
+  - EWA
+  - EWG
+  - EWJ
+  - EWT
+  - EWW
+  - EWY
+  - EWZ
+  - FDN
+  - FTR
+  - FXI
+  - GLD
+  - GRA
+  - HACK
+  - HOUL
+  - HYG
+  - IAU
+  - IBB
+  - ICLN
+  - ICON
+  - IEF
+  - IEFA
+  - IGV
+  - INDA
+  - IONIS
+  - IWM
+  - IYR
+  - IYW
+  - JMAT
+  - JNK
+  - KIE
+  - KLG
+  - KRE
+  - LIT
+  - LQD
+  - MCHI
+  - MJ
+  - MSOS
+  - NOBL
+  - NSRGY
+  - ORGAN
+  - PCL
+  - PEJ
+  - PIP
+  - POSH
+  - QQQ
+  - REM
+  - SCHD
+  - SCHH
+  - SDY
+  - SHY
+  - SKYY
+  - SLV
+  - SMH
+  - SOXX
+  - SPY
+  - STONE
+  - TAN
+  - TEM
+  - TLT
+  - UNG
+  - USO
+  - VIG
+  - VNQ
+  - VOO
+  - VT
+  - VTI
+  - VTV
+  - VUG
+  - VWO
+  - VYM
+  - VZ
+  - WAYG
+  - WIN
+  - XBI
+  - XLB
+  - XLE
+  - XLF
+  - XLI
+  - XLK
+  - XLP
+  - XLRE
+  - XLU
+  - XLV
+  - XLY
+  - XRT
+  - Y
+  - ZOOM
 
 # Screening Parameters
 parameters:
   # Minimum score thresholds
   min_buy_score: 70
   min_sell_score: 60
-
   # Market breadth requirement
   min_phase2_pct: 15.0
-
   # Data requirements
   min_data_days: 200
-
   # Volume threshold for breakouts
   volume_threshold: 1.5
-
-  # Maximum extension from 50 SMA for buy signals
+  # Maximum extension from 50 MA for buy signals
   max_extension_pct: 25.0
-
   # Cache settings
   cache_expiry_hours: 24
 
@@ -68,10 +132,8 @@ parameters:
 output:
   # Print detailed fundamental snapshots
   show_fundamentals: true
-
   # Print detailed phase analysis
   show_phase_details: true
-
   # Save results to file
   save_to_file: true
   output_dir: "./data/results"
