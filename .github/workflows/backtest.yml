@@ -27,6 +27,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
+          pip install pyyaml numpy pandas yfinance
 
       - name: Run backtest
         run: |
