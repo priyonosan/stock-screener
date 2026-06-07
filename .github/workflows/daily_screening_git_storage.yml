@@ -76,7 +76,7 @@ jobs:
           CACHED_STOCKS: ${{ steps.cache-check.outputs.cached_stocks }}
         run: |
           echo "Starting screening with:"
-          echo "  - Fresh price data for all stocks (1 year history)"
+          echo "  - Tickers loaded from config.yaml"
           echo "  - Smart fundamental refresh (earnings-aware)"
           echo "  - Cached fundamentals: $CACHED_STOCKS stocks"
           echo ""
@@ -85,9 +85,9 @@ jobs:
           mkdir -p data/daily_scans
           mkdir -p data/logs
 
-          # Conservative mode to avoid rate limits
-          # --git-storage flag enables Git-based fundamental storage
-          python run_optimized_scan.py --conservative --git-storage
+          # --use-config: baca ticker dari config.yaml (bukan seluruh universe)
+          # --git-storage: aktifkan penyimpanan fundamental berbasis Git
+          python run_optimized_scan.py --conservative --git-storage --use-config
 
       - name: Show fundamental refresh stats
         if: always()
