@@ -3412,8 +3412,8 @@
     "in_earnings_season": true
   },
   "INSE": {
-    "last_updated": "2026-01-15T13:31:27.762173",
-    "in_earnings_season": true
+    "last_updated": "2026-06-07T07:16:31.341942",
+    "in_earnings_season": false
   },
   "INSG": {
     "last_updated": "2025-12-04T13:55:33.401095",
@@ -6172,7 +6172,7 @@
     "in_earnings_season": true
   },
   "TGEN": {
-    "last_updated": "2025-12-04T14:14:50.957855",
+    "last_updated": "2026-06-07T07:42:28.348481",
     "in_earnings_season": false
   },
   "TGNA": {
@@ -9525,6 +9525,10 @@
   },
   "PPLI": {
     "last_updated": "2026-06-05T16:06:26.174463",
+    "in_earnings_season": false
+  },
+  "BELFA": {
+    "last_updated": "2026-06-07T06:54:35.093989",
     "in_earnings_season": false
   }
 }
