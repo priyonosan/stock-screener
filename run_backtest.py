@@ -61,29 +61,56 @@ def minervini_score(closes: pd.Series, spy_closes: pd.Series) -> float:
     if len(closes) < 200:
         return 0
 
-    price  = closes.iloc[-1]
-    sma50  = closes.rolling(50).mean().iloc[-1]
-    sma150 = closes.rolling(150).mean().iloc[-1]
-    sma200 = closes.rolling(200).mean().iloc[-1]
+    try:
+        sma200_series = closes.rolling(200).mean()
 
-    high52 = closes.rolling(252).max().iloc[-1]
-    low52  = closes.rolling(252).min().iloc[-1]
+        # Pastikan semua nilai scalar (float), bukan Series
+        price      = float(closes.iloc[-1])
+        sma50      = float(closes.rolling(50).mean().iloc[-1])
+        sma150     = float(closes.rolling(150).mean().iloc[-1])
+        sma200     = float(sma200_series.iloc[-1])
+        sma200_21d = float(sma200_series.iloc[-21]) if len(sma200_series) >= 21 else sma200
+        high52     = float(closes.rolling(min(252, len(closes))).max().iloc[-1])
+        low52      = float(closes.rolling(min(252, len(closes))).min().iloc[-1])
 
-    score = 0
+        # Validasi tidak ada NaN
+        import math
+        if any(math.isnan(v) for v in [price, sma50, sma150, sma200]):
+            return 0
 
-    # Kriteria 1-5 Minervini
-    if price > sma150 and price > sma200:   score += 20
-    if sma150 > sma200:                      score += 15
-    slope200 = (closes.rolling(200).mean().iloc[-1] - closes.rolling(200).mean().iloc[-21]) / closes.rolling(200).mean().iloc[-21]
-    if slope200 > 0:                         score += 15
-    if sma50 > sma150 > sma200:              score += 20
-    if price > sma50:                        score += 10
+        score = 0
 
-    # Kriteria 6-7: jarak dari high/low
-    if low52 > 0 and (price / low52 - 1) >= 0.30:  score += 10
-    if high52 > 0 and (price / high52) >= 0.75:     score += 10
+        # Kriteria 1: Price > SMA150 dan SMA200
+        if price > sma150 and price > sma200:
+            score += 20
 
-    return score
+        # Kriteria 2: SMA150 > SMA200
+        if sma150 > sma200:
+            score += 15
+
+        # Kriteria 3: SMA200 slope positif
+        slope200 = (sma200 - sma200_21d) / sma200_21d if sma200_21d > 0 else 0.0
+        if slope200 > 0:
+            score += 15
+
+        # Kriteria 4: SMA50 > SMA150 > SMA200
+        if sma50 > sma150 > sma200:
+            score += 20
+
+        # Kriteria 5: Price > SMA50
+        if price > sma50:
+            score += 10
+
+        # Kriteria 6-7: jarak dari high/low 52 minggu
+        if low52 > 0 and (price / low52 - 1) >= 0.30:
+            score += 10
+        if high52 > 0 and (price / high52) >= 0.75:
+            score += 10
+
+        return score
+
+    except Exception:
+        return 0
 
 
 # ─────────────────────────────────────────────
