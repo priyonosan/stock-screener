@@ -9742,5 +9742,21 @@
   "WCN": {
     "last_updated": "2026-06-10T15:29:51.840145",
     "in_earnings_season": false
+  },
+  "AMCR": {
+    "last_updated": "2026-06-12T14:46:02.713631",
+    "in_earnings_season": false
+  },
+  "KKR": {
+    "last_updated": "2026-06-12T14:50:16.730119",
+    "in_earnings_season": false
+  },
+  "SCHW": {
+    "last_updated": "2026-06-12T14:52:59.876828",
+    "in_earnings_season": false
+  },
+  "SHW": {
+    "last_updated": "2026-06-12T14:53:07.058522",
+    "in_earnings_season": false
   }
 }
