@@ -7448,8 +7448,8 @@
     "in_earnings_season": true
   },
   "CAG": {
-    "last_updated": "2026-02-13T13:29:08.535060",
-    "in_earnings_season": true
+    "last_updated": "2026-06-15T17:07:51.101180",
+    "in_earnings_season": false
   },
   "CAKE": {
     "last_updated": "2026-05-11T15:40:05.655298",
@@ -7572,8 +7572,8 @@
     "in_earnings_season": true
   },
   "GIS": {
-    "last_updated": "2026-02-09T13:51:15.706733",
-    "in_earnings_season": true
+    "last_updated": "2026-06-15T17:10:04.346353",
+    "in_earnings_season": false
   },
   "PAYX": {
     "last_updated": "2026-05-15T15:08:58.255691",
@@ -9757,6 +9757,10 @@
   },
   "SHW": {
     "last_updated": "2026-06-12T14:53:07.058522",
+    "in_earnings_season": false
+  },
+  "CRH": {
+    "last_updated": "2026-06-15T17:08:30.270070",
     "in_earnings_season": false
   }
 }
