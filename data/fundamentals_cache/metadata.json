@@ -9762,5 +9762,9 @@
   "CRH": {
     "last_updated": "2026-06-15T17:08:30.270070",
     "in_earnings_season": false
+  },
+  "CRSP": {
+    "last_updated": "2026-06-17T15:02:36.159686",
+    "in_earnings_season": false
   }
 }
