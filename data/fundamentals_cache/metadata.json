@@ -7488,7 +7488,7 @@
     "in_earnings_season": true
   },
   "ABT": {
-    "last_updated": "2025-12-16T13:01:15.858246",
+    "last_updated": "2026-06-23T14:36:05.571559",
     "in_earnings_season": false
   },
   "ADP": {
@@ -9769,6 +9769,10 @@
   },
   "ACN": {
     "last_updated": "2026-06-19T14:51:24.059077",
+    "in_earnings_season": false
+  },
+  "SNOW": {
+    "last_updated": "2026-06-23T14:43:42.390254",
     "in_earnings_season": false
   }
 }
