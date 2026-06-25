@@ -9774,5 +9774,17 @@
   "SNOW": {
     "last_updated": "2026-06-23T14:43:42.390254",
     "in_earnings_season": false
+  },
+  "LOW": {
+    "last_updated": "2026-06-25T14:17:43.430985",
+    "in_earnings_season": false
+  },
+  "SHOP": {
+    "last_updated": "2026-06-25T14:20:12.493354",
+    "in_earnings_season": false
+  },
+  "STE": {
+    "last_updated": "2026-06-25T14:20:37.402645",
+    "in_earnings_season": false
   }
 }
