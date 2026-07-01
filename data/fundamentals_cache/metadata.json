@@ -1288,8 +1288,8 @@
     "in_earnings_season": true
   },
   "CELH": {
-    "last_updated": "2026-02-09T13:38:21.393450",
-    "in_earnings_season": true
+    "last_updated": "2026-07-01T14:23:22.082724",
+    "in_earnings_season": false
   },
   "CENTA": {
     "last_updated": "2026-05-11T15:41:23.698742",
@@ -3536,8 +3536,8 @@
     "in_earnings_season": true
   },
   "JKHY": {
-    "last_updated": "2026-02-13T13:49:39.676508",
-    "in_earnings_season": true
+    "last_updated": "2026-07-01T14:26:21.086914",
+    "in_earnings_season": false
   },
   "JLL": {
     "last_updated": "2026-05-11T16:00:25.623444",
@@ -5088,7 +5088,7 @@
     "in_earnings_season": true
   },
   "PODD": {
-    "last_updated": "2025-12-04T14:07:09.872209",
+    "last_updated": "2026-07-01T14:28:36.943341",
     "in_earnings_season": false
   },
   "POWL": {
@@ -6372,8 +6372,8 @@
     "in_earnings_season": true
   },
   "TSCO": {
-    "last_updated": "2026-02-10T14:39:37.955510",
-    "in_earnings_season": true
+    "last_updated": "2026-07-01T14:30:15.292069",
+    "in_earnings_season": false
   },
   "TSLX": {
     "last_updated": "2026-05-04T15:18:23.169203",
@@ -9789,6 +9789,10 @@
   },
   "WTW": {
     "last_updated": "2026-06-29T15:45:51.170780",
+    "in_earnings_season": false
+  },
+  "NU": {
+    "last_updated": "2026-07-01T14:27:52.967209",
     "in_earnings_season": false
   }
 }
