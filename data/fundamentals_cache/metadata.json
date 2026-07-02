@@ -6504,8 +6504,8 @@
     "in_earnings_season": true
   },
   "UHS": {
-    "last_updated": "2026-02-13T14:17:09.994435",
-    "in_earnings_season": true
+    "last_updated": "2026-07-02T13:54:04.080949",
+    "in_earnings_season": false
   },
   "UI": {
     "last_updated": "2026-05-15T15:23:34.116513",
@@ -9793,6 +9793,10 @@
   },
   "NU": {
     "last_updated": "2026-07-01T14:27:52.967209",
+    "in_earnings_season": false
+  },
+  "BNTX": {
+    "last_updated": "2026-07-02T13:46:43.005688",
     "in_earnings_season": false
   }
 }
