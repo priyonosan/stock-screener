@@ -8100,8 +8100,8 @@
     "in_earnings_season": false
   },
   "TMUS": {
-    "last_updated": "2026-02-12T14:22:58.314137",
-    "in_earnings_season": true
+    "last_updated": "2026-07-07T14:24:07.858559",
+    "in_earnings_season": false
   },
   "MCRI": {
     "last_updated": "2026-05-11T16:05:11.929724",
@@ -9797,6 +9797,14 @@
   },
   "BNTX": {
     "last_updated": "2026-07-02T13:46:43.005688",
+    "in_earnings_season": false
+  },
+  "DOCU": {
+    "last_updated": "2026-07-07T14:18:15.735732",
+    "in_earnings_season": false
+  },
+  "STWD": {
+    "last_updated": "2026-07-07T14:23:47.887581",
     "in_earnings_season": false
   }
 }
