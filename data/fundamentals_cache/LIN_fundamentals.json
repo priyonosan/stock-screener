@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LIN",
-    "fetch_date": "2026-06-07T09:09:30.114202",
+    "fetch_date": "2026-07-15T13:27:52.893355",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 8112000000.0,
       "2025-06-30 00:00:00": 8495000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.237,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-06-07T09:09:30.115919"
+  "fetched_at": "2026-07-15T13:27:52.895072"
 }

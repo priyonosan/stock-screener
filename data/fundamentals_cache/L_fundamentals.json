@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "L",
-    "fetch_date": "2026-05-11T16:02:07.872785",
+    "fetch_date": "2026-07-15T13:27:46.917960",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 4438000000.0,
@@ -24,5 +24,5 @@
     "eps_yoy_change": -6.321839080459776,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-11T16:02:07.873422"
+  "fetched_at": "2026-07-15T13:27:46.918619"
 }

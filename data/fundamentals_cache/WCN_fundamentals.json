@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "WCN",
-    "fetch_date": "2026-06-10T15:29:51.836693",
+    "fetch_date": "2026-07-15T13:32:12.363367",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 2228176000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-06-10T15:29:51.838461"
+  "fetched_at": "2026-07-15T13:32:12.365053"
 }

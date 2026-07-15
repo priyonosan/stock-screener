@@ -1,19 +1,17 @@
 {
   "data": {
     "ticker": "LPLA",
-    "fetch_date": "2026-05-04T14:55:36.878227",
+    "fetch_date": "2026-07-15T13:27:58.786729",
     "quarterly_revenue": {
-      "2024-12-31 00:00:00": 3512351000.0,
       "2025-03-31 00:00:00": 3670007000.0,
       "2025-06-30 00:00:00": 3835025000.0,
       "2025-09-30 00:00:00": 4551977000.0,
       "2025-12-31 00:00:00": 4932470000.0,
-      "2026-03-31 00:00:00": NaN
+      "2026-03-31 00:00:00": 4938434000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 0.12091305167593518,
+    "revenue_yoy_change": 34.561977674701986,
     "quarterly_eps": {
-      "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 4.24,
       "2025-06-30 00:00:00": 3.4,
       "2025-09-30 00:00:00": -0.37,
@@ -22,10 +20,10 @@
     },
     "eps_qoq_change": 18.449197860962553,
     "eps_yoy_change": 4.481132075471686,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 24.77,
+    "margin_change": 1.1,
+    "operating_margin": 11.84,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-04T14:55:36.879562"
+  "fetched_at": "2026-07-15T13:27:58.788013"
 }

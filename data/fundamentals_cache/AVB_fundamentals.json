@@ -1,20 +1,18 @@
 {
   "data": {
     "ticker": "AVB",
-    "fetch_date": "2026-05-11T15:35:30.551237",
+    "fetch_date": "2026-07-15T13:23:43.156798",
     "quarterly_revenue": {
-      "2024-09-30 00:00:00": NaN,
-      "2024-12-31 00:00:00": 740549000.0,
+      "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 745880000.0,
       "2025-06-30 00:00:00": 760195000.0,
       "2025-09-30 00:00:00": 766796000.0,
       "2025-12-31 00:00:00": 767856000.0,
-      "2026-03-31 00:00:00": NaN
+      "2026-03-31 00:00:00": 770279000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 0.315553958033798,
+    "revenue_yoy_change": 3.2711696251407734,
     "quarterly_eps": {
-      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 1.66,
       "2025-06-30 00:00:00": 1.88,
@@ -24,10 +22,10 @@
     },
     "eps_qoq_change": 99.14529914529916,
     "eps_yoy_change": 40.361445783132545,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 62.54,
+    "margin_change": -0.75,
+    "operating_margin": 29.41,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-11T15:35:30.552365"
+  "fetched_at": "2026-07-15T13:23:43.158218"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "APD",
-    "fetch_date": "2026-05-11T15:33:43.391682",
+    "fetch_date": "2026-07-15T13:23:36.228769",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 2916200000.0,
@@ -26,7 +26,6 @@
     "margin_change": -0.94,
     "operating_margin": 23.73,
     "quarterly_inventory": {
-      "2024-09-30 00:00:00": NaN,
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 769700000.0,
       "2025-06-30 00:00:00": 797700000.0,
@@ -38,5 +37,5 @@
     "inventory_to_sales_ratio": 0.242,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-05-11T15:33:43.393145"
+  "fetched_at": "2026-07-15T13:23:36.230817"
 }

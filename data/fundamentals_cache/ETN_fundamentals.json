@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ETN",
-    "fetch_date": "2026-06-07T09:07:25.199537",
+    "fetch_date": "2026-07-15T13:25:47.727843",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 6377000000.0,
       "2025-06-30 00:00:00": 7028000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.691,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-06-07T09:07:25.201265"
+  "fetched_at": "2026-07-15T13:25:47.729592"
 }

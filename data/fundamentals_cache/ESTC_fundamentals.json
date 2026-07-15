@@ -1,19 +1,17 @@
 {
   "data": {
     "ticker": "ESTC",
-    "fetch_date": "2026-06-07T09:07:23.832132",
+    "fetch_date": "2026-07-15T13:25:46.354934",
     "quarterly_revenue": {
-      "2025-01-31 00:00:00": 382083000.0,
       "2025-04-30 00:00:00": 388432000.0,
       "2025-07-31 00:00:00": 415288000.0,
       "2025-10-31 00:00:00": 423481000.0,
       "2026-01-31 00:00:00": 449881000.0,
-      "2026-04-30 00:00:00": NaN
+      "2026-04-30 00:00:00": 450681000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 0.1778248025588989,
+    "revenue_yoy_change": 16.0257136384232,
     "quarterly_eps": {
-      "2025-01-31 00:00:00": NaN,
       "2025-04-30 00:00:00": -0.16,
       "2025-07-31 00:00:00": -0.23,
       "2025-10-31 00:00:00": -0.48,
@@ -22,10 +20,10 @@
     },
     "eps_qoq_change": 5814.285714285713,
     "eps_yoy_change": 2687.5,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 75.36,
+    "margin_change": -0.98,
+    "operating_margin": -3.64,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-06-07T09:07:23.833459"
+  "fetched_at": "2026-07-15T13:25:46.356231"
 }

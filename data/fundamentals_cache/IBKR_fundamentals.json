@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "IBKR",
-    "fetch_date": "2026-06-07T09:08:40.072070",
+    "fetch_date": "2026-07-15T13:27:02.828645",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 2310000000.0,
       "2025-06-30 00:00:00": 2469000000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 85.64,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-06-07T09:08:40.073441"
+  "fetched_at": "2026-07-15T13:27:02.830437"
 }
