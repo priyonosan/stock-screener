@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BNTX",
-    "fetch_date": "2026-07-02T13:46:43.002015",
+    "fetch_date": "2026-07-16T13:30:28.718714",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 182800000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.879,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-02T13:46:43.003978"
+  "fetched_at": "2026-07-16T13:30:28.720599"
 }

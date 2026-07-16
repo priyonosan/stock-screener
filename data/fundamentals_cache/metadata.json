@@ -4868,7 +4868,7 @@
     "in_earnings_season": true
   },
   "PAHC": {
-    "last_updated": "2026-05-11T16:12:46.523730",
+    "last_updated": "2026-07-16T13:35:38.027260",
     "in_earnings_season": true
   },
   "PAM": {
@@ -6064,8 +6064,8 @@
     "in_earnings_season": false
   },
   "TAP": {
-    "last_updated": "2026-05-20T16:39:13.450677",
-    "in_earnings_season": false
+    "last_updated": "2026-07-16T13:37:21.108951",
+    "in_earnings_season": true
   },
   "TARA": {
     "last_updated": "2026-05-15T15:20:12.086361",
@@ -6188,7 +6188,7 @@
     "in_earnings_season": true
   },
   "THC": {
-    "last_updated": "2026-05-11T16:25:04.921108",
+    "last_updated": "2026-07-16T13:37:27.099640",
     "in_earnings_season": true
   },
   "TH": {
@@ -6372,8 +6372,8 @@
     "in_earnings_season": true
   },
   "TSCO": {
-    "last_updated": "2026-07-01T14:30:15.292069",
-    "in_earnings_season": false
+    "last_updated": "2026-07-16T13:37:38.143792",
+    "in_earnings_season": true
   },
   "TSLX": {
     "last_updated": "2026-05-04T15:18:23.169203",
@@ -6644,7 +6644,7 @@
     "in_earnings_season": true
   },
   "VFC": {
-    "last_updated": "2026-05-11T16:28:57.239544",
+    "last_updated": "2026-07-16T13:38:02.502028",
     "in_earnings_season": true
   },
   "VIAV": {
@@ -9204,7 +9204,7 @@
     "in_earnings_season": true
   },
   "TYL": {
-    "last_updated": "2026-04-27T15:15:19.206028",
+    "last_updated": "2026-07-16T13:37:44.928733",
     "in_earnings_season": true
   },
   "WEAV": {
@@ -9628,8 +9628,8 @@
     "in_earnings_season": true
   },
   "JD": {
-    "last_updated": "2026-06-07T09:09:03.048995",
-    "in_earnings_season": false
+    "last_updated": "2026-07-16T13:33:42.907380",
+    "in_earnings_season": true
   },
   "KNSA": {
     "last_updated": "2026-07-15T13:27:42.653740",
@@ -9796,8 +9796,8 @@
     "in_earnings_season": true
   },
   "BNTX": {
-    "last_updated": "2026-07-02T13:46:43.005688",
-    "in_earnings_season": false
+    "last_updated": "2026-07-16T13:30:28.722324",
+    "in_earnings_season": true
   },
   "DOCU": {
     "last_updated": "2026-07-15T13:25:23.390738",
@@ -9833,6 +9833,10 @@
   },
   "PLTR": {
     "last_updated": "2026-07-15T13:29:40.046232",
+    "in_earnings_season": true
+  },
+  "PDD": {
+    "last_updated": "2026-07-16T13:35:43.913545",
     "in_earnings_season": true
   }
 }
