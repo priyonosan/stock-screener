@@ -6516,7 +6516,7 @@
     "in_earnings_season": true
   },
   "ULTA": {
-    "last_updated": "2026-05-04T15:19:37.134002",
+    "last_updated": "2026-07-20T14:02:15.406306",
     "in_earnings_season": true
   },
   "UMAC": {
@@ -9837,6 +9837,10 @@
   },
   "PDD": {
     "last_updated": "2026-07-16T13:35:43.913545",
+    "in_earnings_season": true
+  },
+  "BABA": {
+    "last_updated": "2026-07-20T13:54:26.094318",
     "in_earnings_season": true
   }
 }
