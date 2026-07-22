@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ESTC",
-    "fetch_date": "2026-07-15T13:25:46.354934",
+    "fetch_date": "2026-07-22T13:35:25.629333",
     "quarterly_revenue": {
       "2025-04-30 00:00:00": 388432000.0,
       "2025-07-31 00:00:00": 415288000.0,
@@ -25,5 +25,5 @@
     "operating_margin": -3.64,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:25:46.356231"
+  "fetched_at": "2026-07-22T13:35:25.630973"
 }

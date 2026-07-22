@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "EXR",
-    "fetch_date": "2026-07-15T13:26:04.665780",
+    "fetch_date": "2026-07-22T13:35:43.422954",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 819997000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 42.94,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:26:04.667112"
+  "fetched_at": "2026-07-22T13:35:43.425416"
 }

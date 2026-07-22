@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PAGS",
-    "fetch_date": "2026-07-15T13:29:19.844617",
+    "fetch_date": "2026-07-22T13:42:06.222050",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 4850156000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:29:19.846361"
+  "fetched_at": "2026-07-22T13:42:06.223803"
 }

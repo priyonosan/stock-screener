@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SNPS",
-    "fetch_date": "2026-07-15T13:30:39.258623",
+    "fetch_date": "2026-07-22T13:44:50.284150",
     "quarterly_revenue": {
       "2024-10-31 00:00:00": NaN,
       "2025-01-31 00:00:00": NaN,
@@ -39,5 +39,5 @@
     "inventory_to_sales_ratio": 0.194,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:30:39.260906"
+  "fetched_at": "2026-07-22T13:44:50.285933"
 }

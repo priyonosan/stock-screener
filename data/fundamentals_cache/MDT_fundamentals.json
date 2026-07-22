@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MDT",
-    "fetch_date": "2026-07-15T13:28:12.867685",
+    "fetch_date": "2026-07-22T13:40:23.161072",
     "quarterly_revenue": {
       "2025-01-31 00:00:00": NaN,
       "2025-04-30 00:00:00": 8927000000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.607,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:28:12.870103"
+  "fetched_at": "2026-07-22T13:40:23.162891"
 }

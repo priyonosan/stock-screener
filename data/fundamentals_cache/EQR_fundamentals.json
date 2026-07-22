@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "EQR",
-    "fetch_date": "2026-07-15T13:25:43.526186",
+    "fetch_date": "2026-07-22T13:35:22.615883",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 760810000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 27.4,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:25:43.527557"
+  "fetched_at": "2026-07-22T13:35:22.617343"
 }

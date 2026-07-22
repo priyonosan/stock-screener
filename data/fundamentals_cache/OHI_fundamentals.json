@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "OHI",
-    "fetch_date": "2026-07-15T13:29:09.061174",
+    "fetch_date": "2026-07-22T13:41:55.520210",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 276785000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 64.12,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:29:09.062555"
+  "fetched_at": "2026-07-22T13:41:55.521589"
 }

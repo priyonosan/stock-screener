@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "XP",
-    "fetch_date": "2026-07-15T13:32:43.498051",
+    "fetch_date": "2026-07-22T13:48:09.585406",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 1649000000.0,
@@ -27,5 +27,5 @@
     "operating_margin": -67.98,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:32:43.499405"
+  "fetched_at": "2026-07-22T13:48:09.586766"
 }
