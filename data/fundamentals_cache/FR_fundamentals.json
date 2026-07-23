@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "FR",
-    "fetch_date": "2026-07-15T13:26:20.677787",
+    "fetch_date": "2026-07-23T13:45:24.708232",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 177074000.0,
       "2025-06-30 00:00:00": 180163000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:26:20.679529"
+  "fetched_at": "2026-07-23T13:45:24.709710"
 }
