@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TSCO",
-    "fetch_date": "2026-07-16T13:37:38.140435",
+    "fetch_date": "2026-07-24T13:32:19.080611",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 3466952000.0,
       "2025-06-30 00:00:00": 4439729000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.998,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-16T13:37:38.142180"
+  "fetched_at": "2026-07-24T13:32:19.082386"
 }
