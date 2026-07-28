@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LULU",
-    "fetch_date": "2026-07-15T13:28:01.936218",
+    "fetch_date": "2026-07-28T13:54:57.791989",
     "quarterly_revenue": {
       "2024-10-31 00:00:00": NaN,
       "2025-01-31 00:00:00": NaN,
@@ -40,5 +40,5 @@
     "inventory_to_sales_ratio": 0.683,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-15T13:28:01.938384"
+  "fetched_at": "2026-07-28T13:54:57.793558"
 }
