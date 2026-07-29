@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ALGN",
-    "fetch_date": "2026-07-22T13:29:50.381438",
+    "fetch_date": "2026-07-29T13:55:12.378794",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 979262000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.207,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-22T13:29:50.383219"
+  "fetched_at": "2026-07-29T13:55:12.380949"
 }
