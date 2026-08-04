@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "INFY",
-    "fetch_date": "2026-07-28T13:54:11.005492",
+    "fetch_date": "2026-08-04T13:59:45.168886",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": NaN,
@@ -29,5 +29,5 @@
     "operating_margin": 21.09,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-28T13:54:11.006684"
+  "fetched_at": "2026-08-04T13:59:45.170217"
 }

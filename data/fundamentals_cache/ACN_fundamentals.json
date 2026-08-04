@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ACN",
-    "fetch_date": "2026-07-28T13:49:57.714555",
+    "fetch_date": "2026-08-04T13:55:31.937540",
     "quarterly_revenue": {
       "2025-05-31 00:00:00": 17727871000.0,
       "2025-08-31 00:00:00": 17596260000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 16.96,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-28T13:49:57.715838"
+  "fetched_at": "2026-08-04T13:55:31.938964"
 }

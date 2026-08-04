@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "NOW",
-    "fetch_date": "2026-07-28T13:55:47.164042",
+    "fetch_date": "2026-08-04T14:01:20.932791",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 3215000000.0,
       "2025-09-30 00:00:00": 3407000000.0,
@@ -25,5 +25,5 @@
     "operating_margin": 4.06,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-28T13:55:47.165411"
+  "fetched_at": "2026-08-04T14:01:20.934090"
 }
