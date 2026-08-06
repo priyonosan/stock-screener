@@ -1,19 +1,17 @@
 {
   "data": {
     "ticker": "PJT",
-    "fetch_date": "2026-07-29T14:01:32.237094",
+    "fetch_date": "2026-08-06T13:56:33.120288",
     "quarterly_revenue": {
-      "2025-03-31 00:00:00": 324531000.0,
       "2025-06-30 00:00:00": 406884000.0,
       "2025-09-30 00:00:00": 447093000.0,
       "2025-12-31 00:00:00": 535163000.0,
       "2026-03-31 00:00:00": 418204000.0,
-      "2026-06-30 00:00:00": NaN
+      "2026-06-30 00:00:00": 486290000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 16.280571204483937,
+    "revenue_yoy_change": 19.515635906056765,
     "quarterly_eps": {
-      "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 1.21,
       "2025-09-30 00:00:00": 1.47,
       "2025-12-31 00:00:00": 1.97,
@@ -22,10 +20,10 @@
     },
     "eps_qoq_change": -24.886877828054303,
     "eps_yoy_change": 37.1900826446281,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 33.04,
+    "margin_change": 0.06,
+    "operating_margin": 21.88,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:01:32.238682"
+  "fetched_at": "2026-08-06T13:56:33.121626"
 }

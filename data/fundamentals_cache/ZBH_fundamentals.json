@@ -1,30 +1,30 @@
 {
   "data": {
     "ticker": "ZBH",
-    "fetch_date": "2026-07-29T14:04:44.091460",
+    "fetch_date": "2026-08-06T13:59:45.102831",
     "quarterly_revenue": {
-      "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 1909100000.0,
       "2025-06-30 00:00:00": 2077300000.0,
       "2025-09-30 00:00:00": 2001400000.0,
       "2025-12-31 00:00:00": 2243700000.0,
-      "2026-03-31 00:00:00": 2086700000.0
+      "2026-03-31 00:00:00": 2086700000.0,
+      "2026-06-30 00:00:00": NaN
     },
-    "revenue_qoq_change": -6.997370414939609,
-    "revenue_yoy_change": 9.302812843748363,
+    "revenue_qoq_change": null,
+    "revenue_yoy_change": null,
     "quarterly_eps": {
-      "2024-12-31 00:00:00": 1.2,
       "2025-03-31 00:00:00": 0.91,
       "2025-06-30 00:00:00": 0.77,
       "2025-09-30 00:00:00": 1.16,
       "2025-12-31 00:00:00": NaN,
-      "2026-03-31 00:00:00": 1.22
+      "2026-03-31 00:00:00": 1.22,
+      "2026-06-30 00:00:00": 1.03
     },
-    "eps_qoq_change": null,
-    "eps_yoy_change": 34.06593406593406,
-    "gross_margin": 72.39,
-    "margin_change": 7.7,
-    "operating_margin": 18.93,
+    "eps_qoq_change": -15.573770491803273,
+    "eps_yoy_change": 33.76623376623377,
+    "gross_margin": NaN,
+    "margin_change": NaN,
+    "operating_margin": NaN,
     "quarterly_inventory": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 2244200000.0,
@@ -34,8 +34,8 @@
       "2026-03-31 00:00:00": 2246800000.0
     },
     "inventory_qoq_change": -1.73,
-    "inventory_to_sales_ratio": 1.077,
+    "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:04:44.092740"
+  "fetched_at": "2026-08-06T13:59:45.104597"
 }

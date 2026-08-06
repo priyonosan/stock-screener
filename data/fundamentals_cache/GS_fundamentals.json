@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "GS",
-    "fetch_date": "2026-07-29T13:58:35.919329",
+    "fetch_date": "2026-08-06T13:53:37.547931",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 15062000000.0,
@@ -26,5 +26,5 @@
     "eps_yoy_change": 92.30064161319889,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T13:58:35.919903"
+  "fetched_at": "2026-08-06T13:53:37.548622"
 }

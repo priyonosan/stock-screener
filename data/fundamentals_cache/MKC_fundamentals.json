@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MKC",
-    "fetch_date": "2026-07-29T14:00:14.914793",
+    "fetch_date": "2026-08-06T13:55:16.137145",
     "quarterly_revenue": {
       "2025-02-28 00:00:00": NaN,
       "2025-05-31 00:00:00": 1659500000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.727,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:00:14.917895"
+  "fetched_at": "2026-08-06T13:55:16.139003"
 }

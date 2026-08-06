@@ -1,18 +1,18 @@
 {
   "data": {
     "ticker": "PLD",
-    "fetch_date": "2026-07-29T14:01:33.416734",
+    "fetch_date": "2026-08-06T13:56:34.127732",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 2139665000.0,
+      "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 2183869000.0,
       "2025-09-30 00:00:00": 2213881000.0,
       "2025-12-31 00:00:00": 2252712000.0,
       "2026-03-31 00:00:00": 2297723000.0,
-      "2026-06-30 00:00:00": NaN
+      "2026-06-30 00:00:00": 2425452000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": 5.55893813135874,
+    "revenue_yoy_change": 11.062156200761127,
     "quarterly_eps": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 0.63,
@@ -24,10 +24,10 @@
     },
     "eps_qoq_change": 7.619047619047604,
     "eps_yoy_change": 85.24590163934424,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 74.17,
+    "margin_change": 0.38,
+    "operating_margin": 39.57,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:01:33.417768"
+  "fetched_at": "2026-08-06T13:56:34.129125"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SHOP",
-    "fetch_date": "2026-07-29T14:02:21.279443",
+    "fetch_date": "2026-08-06T13:57:22.059411",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 2360000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:02:21.282213"
+  "fetched_at": "2026-08-06T13:57:22.061091"
 }

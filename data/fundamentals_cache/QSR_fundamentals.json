@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "QSR",
-    "fetch_date": "2026-07-29T14:01:52.131809",
+    "fetch_date": "2026-08-06T13:56:53.078010",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 2109000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.09,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T14:01:52.133236"
+  "fetched_at": "2026-08-06T13:56:53.079747"
 }

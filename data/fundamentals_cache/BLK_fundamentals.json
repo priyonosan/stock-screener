@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BLK",
-    "fetch_date": "2026-07-29T13:56:00.514410",
+    "fetch_date": "2026-08-06T13:51:01.962394",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": 5276000000.0,
       "2025-06-30 00:00:00": 5423000000.0,
@@ -27,5 +27,5 @@
     "operating_margin": NaN,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-07-29T13:56:00.515411"
+  "fetched_at": "2026-08-06T13:51:01.963774"
 }
