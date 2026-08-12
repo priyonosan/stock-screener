@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CHTR",
-    "fetch_date": "2026-08-04T13:57:03.970007",
+    "fetch_date": "2026-08-12T12:56:14.228788",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 13766000000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 23.02,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-04T13:57:03.971353"
+  "fetched_at": "2026-08-12T12:56:14.230023"
 }
