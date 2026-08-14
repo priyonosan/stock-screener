@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KMX",
-    "fetch_date": "2026-08-06T13:54:36.999177",
+    "fetch_date": "2026-08-14T12:56:20.797374",
     "quarterly_revenue": {
       "2024-11-30 00:00:00": NaN,
       "2025-02-28 00:00:00": NaN,
@@ -39,5 +39,5 @@
     "inventory_to_sales_ratio": 0.507,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T13:54:37.000945"
+  "fetched_at": "2026-08-14T12:56:20.798409"
 }

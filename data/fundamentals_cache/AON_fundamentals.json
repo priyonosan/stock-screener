@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "AON",
-    "fetch_date": "2026-08-06T13:50:30.919102",
+    "fetch_date": "2026-08-14T12:52:14.976126",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": NaN,
@@ -29,5 +29,5 @@
     "operating_margin": 23.81,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T13:50:30.920475"
+  "fetched_at": "2026-08-14T12:52:14.977261"
 }

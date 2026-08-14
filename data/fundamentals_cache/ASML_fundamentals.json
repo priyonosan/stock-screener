@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "ASML",
-    "fetch_date": "2026-08-06T13:50:37.962754",
+    "fetch_date": "2026-08-14T12:52:21.737222",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 7691700000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 1.259,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T13:50:37.964555"
+  "fetched_at": "2026-08-14T12:52:21.738354"
 }

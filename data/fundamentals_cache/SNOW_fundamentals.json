@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "SNOW",
-    "fetch_date": "2026-08-06T13:57:32.966043",
+    "fetch_date": "2026-08-14T12:59:16.710482",
     "quarterly_revenue": {
       "2025-04-30 00:00:00": 1042074000.0,
       "2025-07-31 00:00:00": 1144969000.0,
@@ -25,5 +25,5 @@
     "operating_margin": -23.45,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T13:57:32.967318"
+  "fetched_at": "2026-08-14T12:59:16.711313"
 }

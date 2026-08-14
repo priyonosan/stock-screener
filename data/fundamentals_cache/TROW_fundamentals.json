@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "TROW",
-    "fetch_date": "2026-08-06T13:58:14.078437",
+    "fetch_date": "2026-08-14T12:59:57.691686",
     "quarterly_revenue": {
       "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 1723300000.0,
@@ -27,5 +27,5 @@
     "operating_margin": 29.55,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T13:58:14.079795"
+  "fetched_at": "2026-08-14T12:59:57.692506"
 }

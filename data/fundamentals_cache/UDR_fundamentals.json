@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "UDR",
-    "fetch_date": "2026-08-06T13:58:27.000442",
+    "fetch_date": "2026-08-14T13:00:11.086340",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": NaN,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.128,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T13:58:27.002246"
+  "fetched_at": "2026-08-14T13:00:11.087426"
 }

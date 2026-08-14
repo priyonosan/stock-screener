@@ -1,18 +1,18 @@
 {
   "data": {
     "ticker": "MTCH",
-    "fetch_date": "2026-08-06T13:55:33.012218",
+    "fetch_date": "2026-08-14T12:57:16.998263",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
-      "2025-03-31 00:00:00": 831178000.0,
+      "2025-03-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 863738000.0,
       "2025-09-30 00:00:00": 914275000.0,
       "2025-12-31 00:00:00": 878006000.0,
       "2026-03-31 00:00:00": 863934000.0,
-      "2026-06-30 00:00:00": NaN
+      "2026-06-30 00:00:00": 853105000.0
     },
-    "revenue_qoq_change": null,
-    "revenue_yoy_change": null,
+    "revenue_qoq_change": -1.253452231304706,
+    "revenue_yoy_change": -1.2310445991724344,
     "quarterly_eps": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": NaN,
@@ -24,10 +24,10 @@
     },
     "eps_qoq_change": 2.9411764705882213,
     "eps_yoy_change": 42.85714285714285,
-    "gross_margin": NaN,
-    "margin_change": NaN,
-    "operating_margin": NaN,
+    "gross_margin": 76.06,
+    "margin_change": 0.44,
+    "operating_margin": 28.77,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T13:55:33.013585"
+  "fetched_at": "2026-08-14T12:57:16.999198"
 }

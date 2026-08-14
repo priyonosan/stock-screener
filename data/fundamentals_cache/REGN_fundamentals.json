@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "REGN",
-    "fetch_date": "2026-08-06T13:56:57.059038",
+    "fetch_date": "2026-08-14T12:58:40.605161",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 3675600000.0,
@@ -38,5 +38,5 @@
     "inventory_to_sales_ratio": 0.719,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T13:56:57.060811"
+  "fetched_at": "2026-08-14T12:58:40.606226"
 }

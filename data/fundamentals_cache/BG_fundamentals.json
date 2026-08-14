@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BG",
-    "fetch_date": "2026-08-06T13:50:53.873112",
+    "fetch_date": "2026-08-14T12:52:37.619781",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 12769000000.0,
       "2025-09-30 00:00:00": 22155000000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.643,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T13:50:53.875053"
+  "fetched_at": "2026-08-14T12:52:37.620894"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "STT",
-    "fetch_date": "2026-08-06T13:57:50.184533",
+    "fetch_date": "2026-08-14T12:59:33.722051",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": NaN,
@@ -26,5 +26,5 @@
     "eps_yoy_change": 68.20276497695853,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T13:57:50.185215"
+  "fetched_at": "2026-08-14T12:59:33.722583"
 }

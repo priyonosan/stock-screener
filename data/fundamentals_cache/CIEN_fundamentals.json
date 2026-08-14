@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CIEN",
-    "fetch_date": "2026-08-06T13:51:31.758437",
+    "fetch_date": "2026-08-14T12:53:15.610949",
     "quarterly_revenue": {
       "2025-01-31 00:00:00": NaN,
       "2025-04-30 00:00:00": 1125878000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.515,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T13:51:31.760240"
+  "fetched_at": "2026-08-14T12:53:15.612075"
 }

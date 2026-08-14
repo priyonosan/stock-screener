@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "KNSA",
-    "fetch_date": "2026-08-06T13:54:37.827034",
+    "fetch_date": "2026-08-14T12:56:21.676557",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 156797000.0,
       "2025-09-30 00:00:00": 180855000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.291,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T13:54:37.828815"
+  "fetched_at": "2026-08-14T12:56:21.677615"
 }

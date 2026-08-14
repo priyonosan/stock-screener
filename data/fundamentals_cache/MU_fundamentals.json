@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "MU",
-    "fetch_date": "2026-08-06T13:55:35.034717",
+    "fetch_date": "2026-08-14T12:57:18.721194",
     "quarterly_revenue": {
       "2025-05-31 00:00:00": 9301000000.0,
       "2025-08-31 00:00:00": 11315000000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.207,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T13:55:35.036475"
+  "fetched_at": "2026-08-14T12:57:18.722197"
 }

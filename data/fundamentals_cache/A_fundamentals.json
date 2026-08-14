@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "A",
-    "fetch_date": "2026-08-06T13:49:49.789492",
+    "fetch_date": "2026-08-14T12:51:33.663334",
     "quarterly_revenue": {
       "2025-04-30 00:00:00": 1668000000.0,
       "2025-07-31 00:00:00": 1738000000.0,
@@ -35,5 +35,5 @@
     "inventory_to_sales_ratio": 0.593,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T13:49:49.791381"
+  "fetched_at": "2026-08-14T12:51:33.664542"
 }

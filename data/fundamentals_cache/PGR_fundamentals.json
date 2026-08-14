@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "PGR",
-    "fetch_date": "2026-08-06T13:56:30.091785",
+    "fetch_date": "2026-08-14T12:58:13.803763",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": NaN,
@@ -26,5 +26,5 @@
     "eps_yoy_change": 4.999999999999992,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T13:56:30.092465"
+  "fetched_at": "2026-08-14T12:58:13.804239"
 }

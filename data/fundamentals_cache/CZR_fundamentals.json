@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "CZR",
-    "fetch_date": "2026-08-06T13:52:05.917761",
+    "fetch_date": "2026-08-14T12:53:49.718097",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-06-30 00:00:00": 2907000000.0,
@@ -37,5 +37,5 @@
     "inventory_to_sales_ratio": 0.016,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T13:52:05.919541"
+  "fetched_at": "2026-08-14T12:53:49.719165"
 }

@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "LOGI",
-    "fetch_date": "2026-08-06T13:54:51.865884",
+    "fetch_date": "2026-08-14T12:56:35.899388",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 1147703000.0,
       "2025-09-30 00:00:00": 1186056000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.401,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T13:54:51.867638"
+  "fetched_at": "2026-08-14T12:56:35.900438"
 }

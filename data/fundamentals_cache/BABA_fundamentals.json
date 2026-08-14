@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "BABA",
-    "fetch_date": "2026-08-06T13:50:46.755050",
+    "fetch_date": "2026-08-14T12:52:30.819879",
     "quarterly_revenue": {
       "2024-12-31 00:00:00": NaN,
       "2025-03-31 00:00:00": 236454000000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.078,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T13:50:46.756816"
+  "fetched_at": "2026-08-14T12:52:30.821002"
 }

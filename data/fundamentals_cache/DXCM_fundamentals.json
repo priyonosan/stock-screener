@@ -1,7 +1,7 @@
 {
   "data": {
     "ticker": "DXCM",
-    "fetch_date": "2026-08-06T13:52:24.826767",
+    "fetch_date": "2026-08-14T12:54:08.584980",
     "quarterly_revenue": {
       "2025-06-30 00:00:00": 1157100000.0,
       "2025-09-30 00:00:00": 1209300000.0,
@@ -36,5 +36,5 @@
     "inventory_to_sales_ratio": 0.555,
     "inventory_breakdown_available": false
   },
-  "fetched_at": "2026-08-06T13:52:24.828522"
+  "fetched_at": "2026-08-14T12:54:08.586034"
 }
