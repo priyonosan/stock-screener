@@ -20,8 +20,8 @@
     "in_earnings_season": true
   },
   "TSLA": {
-    "last_updated": "2026-05-15T15:22:27.138802",
-    "in_earnings_season": true
+    "last_updated": "2026-08-18T12:41:01.257077",
+    "in_earnings_season": false
   },
   "AA": {
     "last_updated": "2026-08-06T13:49:50.923959",
@@ -9858,5 +9858,17 @@
   "ROKU": {
     "last_updated": "2026-08-11T12:56:41.793056",
     "in_earnings_season": true
+  },
+  "STLA": {
+    "last_updated": "2026-08-18T12:40:32.157639",
+    "in_earnings_season": false
+  },
+  "WIT": {
+    "last_updated": "2026-08-18T12:41:59.174108",
+    "in_earnings_season": false
+  },
+  "XPEV": {
+    "last_updated": "2026-08-18T12:42:23.183460",
+    "in_earnings_season": false
   }
 }
